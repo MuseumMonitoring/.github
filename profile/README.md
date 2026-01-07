@@ -56,19 +56,8 @@ A Svelte-based client-side application enabling:
 Explore our repositories to contribute or deploy your own instance:
 
 ```bash
-<<<<<<< HEAD
-# Hardware designs and firmware
-git clone https://github.com/MuseumMonitoring/hardware
-
-# Follow-up dashboard (PHP)
-git clone https://github.com/MuseumMonitoring/dashboard
-
-# Query dashboard (Svelte) 
-git clone https://github.com/MuseumMonitoring/graphs
-=======
 # Clone platform repository
 git clone --recursive git@github.com:MuseumMonitoring/mumo-platform.git
->>>>>>> 014e93b (update readme)
 ```
 
 ## 📚 Repository Guide
