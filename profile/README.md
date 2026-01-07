@@ -63,7 +63,7 @@ git clone https://github.com/MuseumMonitoring/hardware
 git clone https://github.com/MuseumMonitoring/dashboard
 
 # Query dashboard (Svelte) 
-git clone https://github.com/MuseumMonitoring/query-client
+git clone https://github.com/MuseumMonitoring/graphs
 ```
 
 ## 📚 Repository Guide
@@ -72,7 +72,7 @@ git clone https://github.com/MuseumMonitoring/query-client
 |-----------|------------|------------|-------------|
 | **Hardware** | PCB Design, C++ | [`hardware`](https://github.com/MuseumMonitoring/hardware) | Sensor boards and firmware |
 | **Dashboard** | PHP, MySQL | [`dashboard`](https://github.com/MuseumMonitoring/dashboard) | Admin interface and data ingestion |
-| **Query Client** | Svelte, Solid | [`query-client`](https://github.com/MuseumMonitoring/query-client) | Semantic data querying interface |
+| **Query Graphs** | Svelte, Solid | [`query-graphs`](https://github.com/MuseumMonitoring/graphs) | Semantic data querying interface |
 | **Data Pipeline** | Python, RDF | [`data-pipeline`](https://github.com/MuseumMonitoring/data-pipeline) | Semantic data transformation |
 | **Documentation** | Markdown | [`docs`](https://github.com/MuseumMonitoring/docs) | Technical documentation |
 
@@ -111,7 +111,7 @@ This approach enables museums to:
 - [📋 Installation Guide](docs/installation.md)
 - [🔧 Hardware Setup](docs/hardware.md)  
 - [👥 User Management](docs/user-management.md)
-- [🔍 Query Interface](docs/querying.md)
+- [🔍 Query Interface](https://github.com/MuseumMonitoring/graphs)
 - [🔗 API Reference](docs/api.md)
 - [🤝 Contributing](CONTRIBUTING.md)
 
