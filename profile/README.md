@@ -11,7 +11,7 @@ Bringing affordable, open-source alternatives to museum monitoring modules throu
 Museum Monitoring (MuMo) is a comprehensive open-source solution designed to help museums monitor and preserve their collections through advanced environmental sensing and data management. This project represents a collaboration between:
 
 - **University of Antwerp**
-- **University of Ghent** 
+- **IDLab - Ghent University - IMEC** 
 - **Fashion Museum Antwerp (MoMu)**
 
 ## 🏗️ Architecture Overview
@@ -28,7 +28,7 @@ A PHP-based administration and monitoring platform that handles:
 - Real-time sensor data visualization
 - Data pipeline orchestration for semantic transformation
 
-### 3. 🔍 Query Dashboard  
+### 3. 🔍 Query Dashboard
 A Svelte-based client-side application enabling:
 - Solid authentication for secure access
 - Dynamic semantic data querying across multiple datastreams
@@ -56,6 +56,7 @@ A Svelte-based client-side application enabling:
 Explore our repositories to contribute or deploy your own instance:
 
 ```bash
+<<<<<<< HEAD
 # Hardware designs and firmware
 git clone https://github.com/MuseumMonitoring/hardware
 
@@ -64,17 +65,22 @@ git clone https://github.com/MuseumMonitoring/dashboard
 
 # Query dashboard (Svelte) 
 git clone https://github.com/MuseumMonitoring/graphs
+=======
+# Clone platform repository
+git clone --recursive git@github.com:MuseumMonitoring/mumo-platform.git
+>>>>>>> 014e93b (update readme)
 ```
 
 ## 📚 Repository Guide
 
 | Component | Technology | Repository | Description |
 |-----------|------------|------------|-------------|
-| **Hardware** | PCB Design, C++ | [`hardware`](https://github.com/MuseumMonitoring/hardware) | Sensor boards and firmware |
+| **Hardware PCB** | PCB Design, C++ | [`hardware`](https://github.com/Strooom/MuMo-V2-Node-PCB) | Node boards |
+| **Firmware** | C++ | [`firmware`](https://github.com/Strooom/MuMo-v2-Node-SW) | Node firmware |
 | **Dashboard** | PHP, MySQL | [`dashboard`](https://github.com/MuseumMonitoring/dashboard) | Admin interface and data ingestion |
-| **Query Graphs** | Svelte, Solid | [`query-graphs`](https://github.com/MuseumMonitoring/graphs) | Semantic data querying interface |
-| **Data Pipeline** | Python, RDF | [`data-pipeline`](https://github.com/MuseumMonitoring/data-pipeline) | Semantic data transformation |
-| **Documentation** | Markdown | [`docs`](https://github.com/MuseumMonitoring/docs) | Technical documentation |
+| **Data Pipeline** | Javascript, RDF | [`data-pipeline`](https://github.com/MuseumMonitoring/pipeline) | Semantic data transformation |
+| **Graphs Client** | Svelte, Solid | [`graphs-dashboard`](https://github.com/MuseumMonitoring/graphs) | Semantic data querying interface |
+| **Deployment** | Docker, nginx | [`mumo-platform`](https://github.com/MuseumMonitoring/mumo-platform) | Deployment repository with docker-compose files and nginx configs |
 
 ## 🔗 Semantic Web Integration
 
@@ -106,14 +112,6 @@ This approach enables museums to:
 - **The Things Network** - LoRaWAN network provider
 - **Custom PCB** - Specialized sensor boards
 
-## 📖 Documentation
-
-- [📋 Installation Guide](docs/installation.md)
-- [🔧 Hardware Setup](docs/hardware.md)  
-- [👥 User Management](docs/user-management.md)
-- [🔍 Query Interface](https://github.com/MuseumMonitoring/graphs)
-- [🔗 API Reference](docs/api.md)
-- [🤝 Contributing](CONTRIBUTING.md)
 
 ## 🤝 Contributing
 
