@@ -70,6 +70,7 @@ git clone --recursive git@github.com:MuseumMonitoring/mumo-platform.git
 | **Data Pipeline** | Javascript, RDF | [`data-pipeline`](https://github.com/MuseumMonitoring/pipeline) | Semantic data transformation |
 | **Graphs Client** | Svelte, Solid | [`graphs-dashboard`](https://github.com/MuseumMonitoring/graphs) | Semantic data querying interface |
 | **Deployment** | Docker, nginx | [`mumo-platform`](https://github.com/MuseumMonitoring/mumo-platform) | Deployment repository with docker-compose files and nginx configs |
+| **Data Model** | RDF, OWL | [`primer`](https://github.com/MuseumMonitoring/mumo-primer) | Primer into the semantic data model |
 
 ## 🔗 Semantic Web Integration
 
