@@ -121,9 +121,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Contact
 
-- **Issues & Bug Reports**: [GitHub Issues](https://github.com/MuseumMonitoring/issues)
-- **General Questions**: [GitHub Discussions](https://github.com/MuseumMonitoring/discussions)
-- **Security Issues**: [Security Policy](SECURITY.md)
+- **Issues with the hardware**: [Pascal Roobrouck](mailto:pascal.roobrouck@gmail.com)
+- **Issues with the php dashboard**: [Tobias Hendrickx](mailto:tobias.hendrickx@momu.be)
+- **Issues with the dataspace**: [Arthur Vercruysse](mailto:arthur.vercruysse@ugent.be) or [Ben De Meester](mailto:Ben.DeMeester@UGent.be)
+- **Question or interest in the project**: [Dieter Suls](mailto:dieter.suls@momu.be)
+
 
 ## 🙏 Acknowledgments
 
